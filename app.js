@@ -21,11 +21,11 @@ function listaDeAmigos(){
 function agregarAmigo(){
     let nombre = inputNombre.value;
     resultado.innerHTML = '';
-    let filtroLetras = /^[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+$/;
+    let filtroLetras = /^[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+$/;    
     if ( amigos.includes(nombre) ){
         alert("nombre repetido, ingrese otro");
     }
-    else if( filtroLetras.test(nombre) ){
+    else if( filtroLetras.test(nombre) && (nombre.trim() !== '') ){
         amigos.push(nombre.toLowerCase());
         document.getElementById('sorteo').removeAttribute('disabled');
     } 
