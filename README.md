@@ -19,7 +19,7 @@ _Proyecto inicial de JavaScript que permite:_
 
 Puedes probar el proyecto en línea gracias a GitHub Pages:
 
-🔗 **<a href="https://kymdu.github.io/challenge-amigo-secreto/" target="_blank">Abrir demo aqui</a>***
+🔗 **[Ver demo aquí](https://kymdu.github.io/challenge-amigo-secreto/)** 
 
 ### 💻 O ejecutarlo localmente:
 1. Clona este repositorio o descarga el código:
